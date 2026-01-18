@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Registration form</title>
+
+<script>
+    function focusOtherInput() {
+      document.getElementById("ootherst").focus();
+    }
+  </script>
+
+</head>
+
+<body>
+
+<h1> 
+	Registration Form for HTML basic to Advance Course (Accessible)	
+</h1>
+
+<form action="https://api.web3forms.com/submit" method="POST">
+	<input type="hidden" name="access_key" value="7bee9a75-8b9a-41fa--83ea-8ca590c7bbc8">	
+	<div>
+		<div> 
+			Name: <br> 
+			<input type="Text" placeholder="Full Name" required autofocus>
+			<br> <br>
+		</div>
+		<div>
+			Email: <br>
+			<input type="email" placeholder="Enter your Email id" required>
+			<br> <br>
+		</div>
+		<div>
+			Mobile No: <br>
+			<input type="tel" placeholder="Enter your Phone number" required>
+			<br> <br>
+		</div>
+		<div>
+			date of burth: <br>
+			<input type="date" required>
+			<br> <br>
+		</div>
+		<div>
+			Gender:<br>
+			<input type="radio" name="gender" required> Male
+			<input type="radio" name="gender" required> Female
+			<input type="radio" name="gender" required>Others
+			<br> <br>
+		</div>
+		<div>
+			You have any Disabilities: <br>
+			<input type="checkbox"> Low vision <br>
+			<input type="checkbox"> blind <br>
+			<input type="checkbox"> No Disabilities
+			<br> <br>
+		</div>
+		<div> 
+			You are comfertable with: <br>
+			<input type="radio" name="sr" required> NVDA <br>
+			<input type="radio" name="sr" required> JAWS <br>
+			<input type="radio" name="sr" required> Both
+			<br> <br>
+		</div>
+		<div>
+			current status: <br>
+			<input type="radio" name="working-status" required> Student <br>
+			<input type="radio" name="working-status" required> Self-Emploid <br>
+			<input type="radio" name="working-status" required> Emploid full time/part time</br>
+			<input type="radio" name="working-status" required> Employ Unemploid<br>
+			<input type="radio" name="working-status" required id="others"> Others 
+			<input type="text">
+			<br> <br>
+		</div>
+		<div>
+			City: <br>
+			<input type="text" placeholder="enter your city" required>
+			<br> <br>
+		</div>
+		<div>
+			State: <br>
+			<input type="text" placeholder="enter your state" required>
+			<br> <br>
+		</div>
+		<div>
+			Compleate Address: <br>
+			<input type="textbox" placeholder="Enter your Compleate address 
+			state, city, colony, bilding/house name and number, Pincode." required>
+			<br> <br>
+		</div>
+		<div> 
+			<input type="submit" value="submit">
+			<input type="reset" value="Clear">
+			<br> <br>
+		</div>
+	</div>
+</form>
+
+</body>
+</html>
